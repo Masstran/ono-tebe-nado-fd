@@ -1,1 +1,80 @@
 /* место для вашего кода */
+.main {
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 95px 50px 100px 50px;
+  background: #fff;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+}
+
+.header__links-list-item {
+
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+
+}
+
+.header__address {
+
+}
+
+.cover {
+  min-height: 757px;
+  margin-bottom: 180px;
+  padding: 165px 50px 50px 50px;
+  background: url(../images/cover.jpg) center / cover;
+}
+
+.description {
+}
+
+.lots {
+  margin-bottom: 120px;
+  padding: 0 24px;
+  background: #fff;
+}
+
+.about {
+  margin-bottom: 180px;
+  padding: 35px 24px 0 24px;
+  background: #fff;
+}
+
+.footer {
+  padding: 0 50px 82px 50px;
+  background: #fff;
+}
