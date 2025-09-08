@@ -167,6 +167,7 @@
 
 .card-link {
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
@@ -302,5 +303,6 @@
 }
 
 .footer__social-icon {
-  max-width: 48px;
+  width: 48px;
+  height: auto;
 }
